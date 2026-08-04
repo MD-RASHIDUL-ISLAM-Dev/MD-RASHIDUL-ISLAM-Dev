@@ -88,7 +88,6 @@ Interactive HTML learning resources in Bengali covering Python for AI, math for 
 </tr>
 </table>
 
-> 📌 *Pin these four repos on your GitHub profile (Customize your pins → select these) so visitors see real work first, not forks.*
 
 ---
 

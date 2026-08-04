@@ -94,12 +94,12 @@ Interactive HTML learning resources in Bengali covering Python for AI, math for 
 ### 📈 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MD-RASHIDUL-ISLAM-Dev&show_icons=true&theme=tokyonight&hide_border=true" width="48%" />
-  <img src="https://streak-stats.demolab.com/?user=MD-RASHIDUL-ISLAM-Dev&theme=tokyonight&hide_border=true" width="48%" />
+  <img src="github-stats/stats.svg" width="48%" />
+<img src="github-stats/streak.svg" width="48%" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MD-RASHIDUL-ISLAM-Dev&layout=compact&theme=tokyonight&hide_border=true" width="50%" />
+  <img src="github-stats/top-langs.svg" width="50%" />
 </p>
 
 ---

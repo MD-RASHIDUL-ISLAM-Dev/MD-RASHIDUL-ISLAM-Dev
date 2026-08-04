@@ -1,0 +1,42 @@
+name: Update GitHub Stats Images
+
+on:
+  schedule:
+    # প্রতিদিন রাত ১২টায় (UTC) চলবে — চাইলে সময় বদলাতে পারো
+    - cron: '0 0 * * *'
+  workflow_dispatch: # ম্যানুয়ালি "Run workflow" বাটন দিয়ে চালানোর অপশন
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Create stats folder
+        run: mkdir -p github-stats
+
+      - name: Download stats card
+        run: |
+          curl -s "https://github-readme-stats.vercel.app/api?username=MD-RASHIDUL-ISLAM-Dev&show_icons=true&theme=tokyonight&hide_border=true" \
+            -o github-stats/stats.svg
+
+      - name: Download streak card
+        run: |
+          curl -s "https://streak-stats.demolab.com/?user=MD-RASHIDUL-ISLAM-Dev&theme=tokyonight&hide_border=true" \
+            -o github-stats/streak.svg
+
+      - name: Download top languages card
+        run: |
+          curl -s "https://github-readme-stats.vercel.app/api/top-langs/?username=MD-RASHIDUL-ISLAM-Dev&layout=compact&theme=tokyonight&hide_border=true" \
+            -o github-stats/top-langs.svg
+
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add github-stats/
+          git diff --quiet && git diff --staged --quiet || git commit -m "chore: update GitHub stats images"
+          git push

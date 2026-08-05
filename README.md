@@ -59,7 +59,7 @@ I'm a self-taught developer from **Narsingdi, Bangladesh**, currently focused on
 <tr>
 <td width="50%" valign="top">
 
-**🗂️ RI PDF Vault Bot**
+**🗂️ MRI PDF ARCHIVE Vault Bot**
 
 Feature-rich Telegram PDF archive bot built in Python/SQLite — smart categorization, fuzzy search, access control, reading progress tracking, automated backups. Runs fully on Android via Termux.
 
@@ -126,6 +126,5 @@ Interactive HTML learning resources in Bengali covering Python for AI, math for 
 | 🐦 X (Twitter) | [@Rashidu52054931](https://x.com/Rashidu52054931) |
 | 📘 Facebook | [Message me](https://www.facebook.com/share/17BzpQbSPn/) |
 | 📸 Instagram | [@rashidulislamrifat14708](https://www.instagram.com/rashidulislamrifat14708) |
-| ▶️ YouTube | [@moralstory-s3h2t](https://youtube.com/@moralstory-s3h2t) |
 
 <p align="center"><i>"Success is neither magical nor mysterious. Success is the natural consequence of consistently applying the basic fundamentals." — Jim Rohn</i></p>

@@ -74,7 +74,7 @@ Feature-rich Telegram PDF archive bot built in Python/SQLite — smart categoriz
 
 Single-file responsive portfolio with a dark/amber design system and terminal-style hero animation, built from scratch with HTML/CSS/JS.
 
-🔗 [Live Demo](https://md-rashidul-islam-dev.github.io/Md-Rashidul-Islam-Rifat/) · [Repo](https://github.com/MD-RASHIDUL-ISLAM-Dev/Md-Rashidul-Islam-Rifat)
+🔗 [Live Demo](https://www.mdrashidulislam.kdns.fr/) · [Repo](https://github.com/MD-RASHIDUL-ISLAM-Dev/Md-Rashidul-Islam-Rifat)
 
 `HTML` `CSS` `JavaScript`
 
